@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body><!--Here is the bootstrap grid I used for the game board-->
+    <div class="container">
+        <div class="row">
+            <div><!--This is the turn indicator-->
+                <h2 id="turnIndicator">It's X's turn</h2>
+            </div>
+
+            <div class="col-4" id="1"></div>
+            <div class="col-4" id="2"></div>
+            <div class="col-4" id="3"></div>
+        </div>
+        <div class="row">
+            <div class="col-4" id="4"></div>
+            <div class="col-4" id="5"></div>
+            <div class="col-4" id="6"></div>
+        </div>
+        <div class="row">
+            <div class="col-4" id="7"></div>
+            <div class="col-4" id="8"></div>
+            <div class="col-4" id="9"></div>
+        </div>
+        <!--This is the reset button that clears and resets the board-->
+        <button id="resetButton" class="button">Clear Board/Reset Game</button>
+
+    </div>
+    <!--script tags for the javascript files-->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
